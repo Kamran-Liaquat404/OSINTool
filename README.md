@@ -27,22 +27,32 @@
 Termux:
 
 pkg update && pkg upgrade -y
+
 pkg install python git -y
+
 git clone https://github.com/Kamran-Liaquat404/OSINTool.git
+
 cd OSINTool
+
 pip install -r requirements.txt
 chmod +x run.sh
+
 ./run.sh
 
 
 Linux (Kali / Ubuntu / Parrot OS):
 
-sudo apt update && sudo apt upgrade -y 
+sudo apt update && sudo apt upgrade -y
+
 sudo apt install python3 git -y 
-git clone https://github.com/Kamran-Liaquat404/OSINTool.git⁠�
-cd OSINTool 
+
+git clone https://github.com/Kamran-Liaquat404/OSINTool.git
+
+cd OSINTool
+
 pip3 install -r requirements.txt
 chmod +x run.sh 
+
 ./run.sh
 
 ## Usage
