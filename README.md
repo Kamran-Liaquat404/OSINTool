@@ -31,6 +31,7 @@ pkg update && pkg upgrade -y
 pkg install python git -y
 
 git clone https://github.com/Kamran-Liaquat404/OSINTool.git
+
 cd OSINTool
 
 pip install -r requirements.txt
