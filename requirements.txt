@@ -1,0 +1,7 @@
+requests
+dnspython
+python-whois
+colorama
+rich
+fpdf2
+shodan
